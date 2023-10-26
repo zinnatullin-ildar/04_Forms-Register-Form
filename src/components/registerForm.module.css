@@ -1,0 +1,46 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightskyblue
+}
+
+.input {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.submitButton {
+    height: 40px;
+    margin: 20px 0 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(34, 96, 231);
+    cursor: pointer;
+}
+
+.submitButton:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+.error {
+    font-size: 20px;
+    color: rgb(231, 22, 22);
+    padding: 0 40px;
+}
